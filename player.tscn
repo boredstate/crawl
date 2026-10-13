@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bnpc31swvqjwm"]
+
+[ext_resource type="Script" uid="uid://i22wou5uoh5y" path="res://player.gd" id="1_4flbx"]
+
+[node name="Player" type="TextureRect" unique_id=1842969258]
+offset_left = 128.0
+offset_top = 128.0
+offset_right = 160.0
+offset_bottom = 160.0
+mouse_filter = 2
+expand_mode = 1
+script = ExtResource("1_4flbx")

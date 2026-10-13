@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://bx02olkutdlcu"]
+
+[ext_resource type="PackedScene" uid="uid://bnpc31swvqjwm" path="res://player.tscn" id="1_bisa2"]
+[ext_resource type="Script" uid="uid://bhciqn8mbkr18" path="res://room.gd" id="1_v5vuv"]
+[ext_resource type="PackedScene" uid="uid://bvgujtbovg8kv" path="res://slime.tscn" id="2_4o3f6"]
+[ext_resource type="Texture2D" uid="uid://dbljtkhrj715x" path="res://player.jpg" id="3_01y1d"]
+[ext_resource type="PackedScene" uid="uid://drl8gqku23fh3" path="res://potion.tscn" id="5_ka7wq"]
+[ext_resource type="PackedScene" uid="uid://b2ri3gmd0xqkh" path="res://stairs.tscn" id="6_x5k2b"]
+[ext_resource type="PackedScene" uid="uid://of8k7aiaua4w" path="res://door.tscn" id="7_8cv3p"]
+[ext_resource type="PackedScene" uid="uid://uw411362o43h" path="res://key.tscn" id="8_01y1d"]
+
+[node name="Room" type="Node2D" unique_id=1664639167]
+script = ExtResource("1_v5vuv")
+
+[node name="Player" parent="." unique_id=885652255 instance=ExtResource("1_bisa2")]
+offset_left = 208.0
+offset_top = 445.0
+offset_right = 240.0
+offset_bottom = 477.0
+texture = ExtResource("3_01y1d")
+
+[node name="Slime" parent="." unique_id=1274275814 instance=ExtResource("2_4o3f6")]
+offset_left = 330.0
+offset_top = 318.0
+offset_right = 362.0
+offset_bottom = 350.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1044025499]
+
+[node name="HPLabel" type="Label" parent="CanvasLayer" unique_id=422354820]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 123.0
+offset_bottom = 39.0
+text = "You 5  Slime 3"
+
+[node name="Potion" parent="." unique_id=10781922 instance=ExtResource("5_ka7wq")]
+
+[node name="Stairs" parent="." unique_id=1779645777 instance=ExtResource("6_x5k2b")]
+
+[node name="Door" parent="." unique_id=246855200 instance=ExtResource("7_8cv3p")]
+
+[node name="Key" parent="." unique_id=75096895 instance=ExtResource("8_01y1d")]
+
+[node name="Boss" parent="." unique_id=589661214 instance=ExtResource("2_4o3f6")]
+offset_left = 534.0
+offset_top = 83.0
+offset_right = 566.0
+offset_bottom = 115.0

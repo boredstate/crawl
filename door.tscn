@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://of8k7aiaua4w"]
+
+[node name="Door" type="ColorRect" unique_id=246855200]
+offset_right = 32.0
+offset_bottom = 32.0
+color = Color(0.40109175, 0.18207103, 0, 1)

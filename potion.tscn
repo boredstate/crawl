@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://drl8gqku23fh3"]
+
+[node name="Potion" type="ColorRect" unique_id=10781922]
+offset_left = 256.0
+offset_top = 128.0
+offset_right = 288.0
+offset_bottom = 160.0
+color = Color(0.98051924, 0.33516648, 0.2870671, 1)
